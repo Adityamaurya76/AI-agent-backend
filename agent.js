@@ -6,7 +6,7 @@ import { initializeAgentExecutorWithOptions } from "langchain/agents";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 
 const model = new ChatGoogleGenerativeAI({
-  model: "models/gemini-1.5-flash",
+  model: "models/gemini-2.5-flash",
   maxOutputTokens: 2048,
   temperature: 0.7,
   apiKey: process.env.GOOGLE_API_KEY,
